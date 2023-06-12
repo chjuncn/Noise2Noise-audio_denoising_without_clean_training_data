@@ -2,7 +2,7 @@ import torch
 import numpy as np
 
 from pathlib import Path
-from torch.utils.data import Dataset, DataLoader
+from torch import Dataset, DataLoader
 from matplotlib import colors, pyplot as plt
 from numpy.fft import rfft, irfft
 
